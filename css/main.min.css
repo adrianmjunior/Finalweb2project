@@ -308,7 +308,8 @@ template {
   display: none; }
 
 body {
-  background-color: #fcfbf4; }
+  background-color: #fcfbf4;
+  padding-top: 100px; }
   body header h1 {
     color: #373838; }
 
@@ -339,10 +340,59 @@ body {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s; }
   .animation p {
     font-size: 30px; }
 
+.ani-1 {
+  -webkit-transition-timing-function: Linear;
+          transition-timing-function: Linear; }
+
+.ani-1:hover {
+  background: salmon;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg); }
+
+.ani-2 {
+  -webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+          transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+
+.ani-2:hover {
+  background: salmon;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg); }
+
+.ani-3:hover {
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  background: salmon; }
+
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px); }
+  50% {
+    -webkit-transform: translate(calc(100px - 30px), 0px);
+            transform: translate(calc(100px - 30px), 0px); }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px); } }
+
+@keyframes move {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px); }
+  50% {
+    -webkit-transform: translate(calc(100px - 30px), 0px);
+            transform: translate(calc(100px - 30px), 0px); }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px); } }
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue; } }
