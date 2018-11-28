@@ -1,9 +1,4 @@
-body {
-    background-color: red;
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
-}
+@import './vendor/normalize';
+@import './modules/colors';
+@import './partials/base';
+@import './partials/variables';
