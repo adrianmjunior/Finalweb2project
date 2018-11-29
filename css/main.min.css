@@ -309,7 +309,7 @@ template {
 
 body {
   background-color: #fcfbf4;
-  padding-top: 100px; }
+  padding-top: 50px; }
   body header h1 {
     color: #373838; }
 
@@ -396,5 +396,8 @@ body {
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue; } }
+.example {
+  background: lightblue;
+  height: 200px; }
 
 /*# sourceMappingURL=main.min.css.map */
