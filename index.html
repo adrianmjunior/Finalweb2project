@@ -41,14 +41,23 @@
                 </section>
                   
             </header>
-    
-    <div class="jumbotron">
-            <h1 class="display-4">Welcome All!</h1>
-            <p class="lead">I am trying to do good with bootstrap, but it can be confusing at times.</p>
-            <hr class="my-4">
-            <p>I'll get it right at some point.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-          </div>
+    <section class="container-fluid">   
+    <div id="quote" class="container"></div>
+        <div class="row">
+            <div class="photo col-md-4">
+                <section id="pics" class="slideshow">
+                    <div class="cycle-slideshow" >
+                    <img src="./assets/images/campbell-boulanger-348386-unsplash.jpg" width="300" height="200">
+                    <img src="./assets/images/freestocks-org-540554-unsplash.jpg" width="300" height="200">
+                    <img src="./assets/images/lance-asper-259085-unsplash.jpg" width="300" height="200">
+                    </div>
+                    <button id="slidebutton" class="btn btn-sm">Hide this show</button>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+            
           <section class="container-fluid example">
                 <div class="row">
                         <div class="col-md-4">
@@ -87,8 +96,8 @@
                                         </div>
                                       </div>
                         </div>
-            </div>
-        </section>
+                </div>
+            </section>
     <section class="boxes">
     <div class="animation ani-1">
             <p>Linear</p>
@@ -102,6 +111,8 @@
     </section>
  
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>  
+        <script src="http://malsup.github.com/jquery.cycle2.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="./js/main.js"></script>
