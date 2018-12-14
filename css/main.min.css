@@ -2736,18 +2736,34 @@ template {
     animation: unset !important;
     -webkit-transition: none !important;
     transition: none !important; } }
-.container-fluid {
-  background-color: #CECECE; }
+.cycle-slideshow {
+  background-color: #373838;
+  height: 400px;
+  width: 100%;
+  float: left; }
 
-.slideshow {
-  height: 400px; }
+.words {
+  float: right;
+  background-color: #373838;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .words p {
+    color: #CECECE;
+    font-size: 25px; }
+
+.skyline {
+  background-color: #CECECE;
+  height: 1000px; }
 
 .splash {
   background-image: url("../assets/images/design.jpg");
-  background-attachment: scroll;
   background-size: 100%;
   width: 100%;
-  height: 550px;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2757,6 +2773,10 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  .splash h1 {
+    color: #CECECE; }
+  .splash p {
+    color: #CECECE; }
   .splash img {
     width: 100%; }
 
@@ -2841,8 +2861,7 @@ template {
   body {
     background-color: lightblue; } }
 .example {
-  background: #373838;
-  height: 200px;
-  width: 100%; }
+  background: #CECECE;
+  height: 500px; }
 
 /*# sourceMappingURL=main.min.css.map */

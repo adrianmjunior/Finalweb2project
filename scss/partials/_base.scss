@@ -1,21 +1,49 @@
-.container-fluid {
-    background-color: $mainfoundation-color;
+
+
+.cycle-slideshow {
+ background-color: $mainblack-color;
+ height: 400px;
+ width: 100%;
+ float:left;
+
 }
 
-.slideshow {
-    height: 400px;
+.words{
+    p{
+        color: $mainfoundation-color;
+        font-size: 25px;
+    }
+    float: right;
+    background-color: $mainblack-color;
+    display: flex;
+    align-items: center;
+
 }
+
+
+
+.skyline {
+background-color: $mainfoundation-color;
+height: 1000px;
+}
+
+
 
 
 .splash {
+    h1{
+        color: $mainfoundation-color;
+    }
+    p{
+        color: $mainfoundation-color;
+    }
     img {
       width:100%;
      }
     background-image: url("../assets/images/design.jpg");
-    background-attachment: scroll;
     background-size: 100%;
     width: 100%;
-    height: 550px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +112,7 @@
 
 
 .example {
-    background: $mainfontblack-color;
-    height: 200px;
-    width: 100%;
+    background: $mainfoundation-color;
+    height: 500px;
+    // width: 100%;
 }

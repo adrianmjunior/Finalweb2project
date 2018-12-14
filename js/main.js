@@ -9,7 +9,7 @@ $('#btn-animate').on('click',function(){
 
 $('#slidebutton').on('click',function(){
 
-    $('#pics').hide();
+    $('.slideshow').hide();
 
 })
 
