@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
 
 .cycle-slideshow {
  background-color: $mainblack-color;
@@ -6,6 +6,10 @@
  width: 100%;
  float:left;
 
+}
+
+.one{
+    width: 200px;
 }
 
 .words{
@@ -20,14 +24,39 @@
 
 }
 
-
-
-.skyline {
-background-color: $mainfoundation-color;
-height: 1000px;
+.skyline{
+    height: 400px;
+    
+    p{
+        color: $mainblack-color;
+    }
+    h3{
+        color: $mainblack-color;
+        align-content: center;
+        font-family: 'Staatliches', cursive;
+    }
+}
+.skyline2{
+    height: 400px;
+    
+    p{
+        color: $mainblack-color;
+    }
+    h3{
+        color: $mainblack-color;
+        align-content: center;
+        font-family: 'Staatliches', cursive;
+    }
 }
 
+.footer {
+    background-color: $mainfoundation-color;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
 
 
 .splash {
@@ -61,7 +90,7 @@ height: 1000px;
     }
     height: 200px; 
     width:200px;
-    background-color: $mainred-color;
+    background-color: $mainblue-color;
     border-radius: 30px;
     display: flex;
     justify-content: center;

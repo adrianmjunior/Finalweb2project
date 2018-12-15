@@ -1,21 +1,17 @@
 $(document).ready(function(){
 
-$('#btn-animate').on('click',function(){
+$('#butt').on('click',function(){
 
-    $('#logo').addClass('animated fadeOutRightBig'); 
-    $('#btn-animate').addClass('animated fadeOutRightBig');
-
-})
-
-$('#slidebutton').on('click',function(){
-
-    $('.slideshow').hide();
+    $('.intro').addClass('animated fadeOutRightBig'); 
+    $('#butt').addClass('animated fadeOutRightBig');
 
 })
 
-setTimeout(function(){
-    $('.navbar').fadeIn(200);
-},500);
+$('one').on('scroll',function(){
+
+    AOS.init();
+})
+
 });
 
 
